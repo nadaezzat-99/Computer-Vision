@@ -91,7 +91,6 @@ def Median_Filter(image,Kernal_size):
                 for rp in range (i,i+Kernal_size):
                       for cp in range (j,j+Kernal_size):
                             window_data.append(image_arr[rp][cp])
-# median_value=get_median(window_data)
                 new_image[i][j]=get_median(window_data) 
                 window_data=[]   
         return (Image.fromarray(new_image))
