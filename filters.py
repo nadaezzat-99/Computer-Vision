@@ -1,6 +1,5 @@
 # importing required libraries
-from operator import index, length_hint
-from re import I
+
 import matplotlib.pyplot as plt
 import matplotlib.image as img
 from PIL import Image
